@@ -6,7 +6,7 @@ import { darkTheme, lightTheme } from './utils/Themes'
 import Navbar from './components/Navbar/Navbar'
 import HeroSection from './components/HeroSection/HeroSection'
 import Skills from './components/Skills/Skills'
-
+import SettingsBrightnessTwoToneIcon from '@mui/icons-material/SettingsBrightnessTwoTone';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects'
 import ProjectDetails from "./components/ProjectDetails";
@@ -23,17 +23,29 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
+const Button = styled.button`
+background-color: ${({ theme }) => theme.text_primary};
+color: ${({ theme }) => theme.primary};
+cursor: pointer;
+display: flex;
+gap:12px;
+align-items: center;
+`
+
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal);
-
-
+  const toggleDarkMode = () => {
+    setDarkMode((prevMode) => !prevMode);
+  };
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
+
         <Navbar />
+
         <Body>
+          <Button onClick={toggleDarkMode}><SettingsBrightnessTwoToneIcon />Toggle Mode</Button>
           <HeroSection />
           <Wrapper>
             <Skills />
