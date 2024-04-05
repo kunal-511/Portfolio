@@ -157,7 +157,7 @@ export const education = [
     date: "Oct 2022 - May 2027",
 
     desc: "During my academic pursuit at BITS Pilani, I have actively engaged in a comprehensive dual degree program, currently completed three semesters. Throughout this enriching journey spanning 1.5 years, I have acquired valuable skills in cutting-edge technologies such as React.js, Express.js, TypeScript, and more. These skills have not only broadened my technical acumen but have also provided me with a robust foundation to effectively contribute to dynamic projects and initiatives in the field.",
-    degree: "Master of Science and Bachelor of Techbology (Dual Degree)",
+    degree: "Master of Science and Bachelor of Technology (Dual Degree)",
   },
   {
     id: 1,
@@ -277,5 +277,18 @@ export const projects = [
     category: "web app",
     github: "https://github.com/kunal-511/chatApp",
     webapp: "",
+  },
+  {
+    id: 6,
+    title: "PassOP",
+    date: "March 2024",
+    description:
+      "Password Manager is a secure and user-friendly web application that allows users to store and manage their passwords.Users can securely store and manage their passwords, ensuring data privacy and convenience.",
+    image:
+      "https://github.com/kunal-511/PassOP/blob/main/public/passOP_thumbnail.png?raw=true",
+    tags: ["React Js", "TailwindCss", "Local storage", "Toastify"],
+    category: "web app",
+    github: "https://github.com/kunal-511/PassOP",
+    webapp: "https://password-manager-l19cf5f9v-kunal511s-projects.vercel.app/",
   },
 ];
