@@ -1,3 +1,5 @@
+
+
 export const Bio = {
   name: "Kunal Dugar",
   roles: [
@@ -131,7 +133,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D4D0BAQHtA_D2iqgauA/company-logo_200_200/0/1683265107795/bits_pilani_postman_lab_logo?e=1712793600&v=beta&t=kIwBnO6izz5JVjqkH0pIyHSpt-Ev5kGHbcRZAORtspY",
+    img: "https://media.licdn.com/dms/image/D4D0BAQHtA_D2iqgauA/company-logo_200_200/0/1683265107795/bits_pilani_postman_lab_logo?e=1724889600&v=beta&t=OAdbwWcNP5f7fsR_V0kxOhMkIB3Q8Em2LjtQSi1hrbc",
     role: "Lab Associate",
     company: "Postman Innovation Lab",
     date: "Sep 2023 - Present",
@@ -147,6 +149,24 @@ export const experiences = [
       " Next Js",
     ],
   },
+  {
+    id:1,
+    img:"https://media.licdn.com/dms/image/D560BAQHtmV9GUGYpxw/company-logo_200_200/0/1708513794647/unreadclub_logo?e=1724889600&v=beta&t=luVm2zTkhvvk9tfs-_wazFDgph2C_aiDpxWCL90LiGE",
+    role: "Frontend Developer Intern",
+    company:"Unread",
+    date: "May 2024 - Aug 2024",
+    desc:"•	During my tenure as a Front-End Engineer, I leveraged cutting-edge technologies including Next.js, Material UI, and Framer Motion to construct visually stunning websites enriched with fluid animations. Additionally, I adeptly maintained and scaled these platforms while upholding a commitment to writing modular code for enhanced maintainability and efficiency. My contributions have significantly elevated user engagement and satisfaction, positioning Unread as a leader in the digital space.",
+    skills:[
+      "Javascript",
+      "Material UI",
+      "Google Analytics",
+      "React",
+      "Framer Motion",
+      "Next Js",
+
+    ]
+
+  }
 ];
 
 export const education = [
