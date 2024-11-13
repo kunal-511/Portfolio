@@ -218,3 +218,11 @@ export const MobileNavLogo = styled(LinkR)`
     padding: 0 0px;
   }
 `;
+export const Button = styled.button`
+background-color: ${({ theme }) => theme.text_primary};
+color: ${({ theme }) => theme.primary};
+cursor: pointer;
+display: flex;
+gap:12px;
+align-items: center;
+`;
