@@ -8,10 +8,6 @@
       }
     }
   ],
-  "scripts": {
-    "build": "vite build",
-    "dev": "vite"
-  },
   "routes": [
     {
       "src": "/(.*)",
