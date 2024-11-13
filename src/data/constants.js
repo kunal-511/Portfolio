@@ -11,7 +11,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "http://github.com/kunal-511",
   resume:
-    "https://drive.google.com/file/d/13haLcCTCMKGKv-Zj7jfv5ztHvIya6Bra/view",
+    "https://drive.google.com/file/d/1rajfiw8oLBza8P3Te9um6fEzCxMhW7MN/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/KunalDugar2004/",
   twitter: "https://twitter.com/kunal_dugar",
   insta: "https://www.instagram.com/_kunal_2004_/",
