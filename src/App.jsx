@@ -31,6 +31,9 @@ display: flex;
 gap:12px;
 align-items: center;
 `
+const ToggleBtn = styled.div`
+background-color: ${({ theme }) => (theme.bg === '#FFFFFF' ? '#FFFFFF' : 'rgba(25, 25, 36)')};
+`
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -41,11 +44,14 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
-
+        <ToggleBtn>
+        <Button onClick={toggleDarkMode}><SettingsBrightnessTwoToneIcon />Toggle Theme</Button>
+        </ToggleBtn>
+        
         <Navbar />
-
+      
         <Body>
-          <Button onClick={toggleDarkMode}><SettingsBrightnessTwoToneIcon />Toggle Mode</Button>
+       
           <HeroSection />
           <Wrapper>
             <Skills />
